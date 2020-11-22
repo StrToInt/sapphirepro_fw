@@ -121,7 +121,7 @@
  *
  * :[2400, 9600, 19200, 38400, 57600, 115200, 250000, 500000, 1000000]
  */
-#define BAUDRATE 115200
+#define BAUDRATE 500000
 
 // Enable the Bluetooth serial interface on AT90USB devices
 //#define BLUETOOTH
@@ -504,9 +504,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp 14.21
-    #define DEFAULT_Ki 0.88
-    #define DEFAULT_Kd 57.26
+    #define DEFAULT_Kp 17.17
+    #define DEFAULT_Ki 1.70
+    #define DEFAULT_Kd 43.41
   #endif
 #endif // PIDTEMP
 
